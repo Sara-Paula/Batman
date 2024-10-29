@@ -14,7 +14,7 @@ export default function Promessa() {
     return <>
         <Menu />
         <Container>
-            Promessas {(divida==="" ? <img src="LOAD.gif"/>: divida)}
+            Promessas {(divida==="" ? <img src="loadiing.gif"/>: divida)}
         </Container>
         <Footer />
     </>
